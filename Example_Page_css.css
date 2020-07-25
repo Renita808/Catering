@@ -15,7 +15,7 @@ body {
   width: 150px;
   margin: 10px auto 25px 700px;
 }
-ul {
+#with_border {
   width: 870px;
   padding: 15px;
   margin: 0px auto 0px auto;
@@ -53,3 +53,10 @@ a:hover, a.on {
   color: #cc3333;
   background-color: #ffffff;
 }
+#services_list{
+  border: none
+  list-style-type: circle;
+  text-aligh: left
+}
+.items{
+  display:block;
