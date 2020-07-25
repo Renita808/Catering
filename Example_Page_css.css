@@ -4,8 +4,6 @@ body {
   background-color: #efefef;
 }
 #page {
-  /*max-width: 940px;
-  min-width: 720px;*/
   margin: 10px auto 10px auto;
   padding: 20px;
   border: 4px double #000;
@@ -55,8 +53,24 @@ a:hover, a.on {
 }
 #services_list{
   border: none
-  list-style-type: circle;
-  text-aligh: left
+  text-align: left
 }
-.items{
-  display:block;
+#specifics {
+  margin: 20px;
+  font-family:serif;
+  text-align: left
+}
+.items {
+  display:block;}
+h5 {
+  font-style:italic;
+  font-weight: 600;
+}
+#menus {
+  border: 2px solid black;
+  color: blue;
+  text-decoration: underline;
+}
+h4 {
+  margin-bottom: -1em
+}
