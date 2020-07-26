@@ -8,10 +8,14 @@ body {
   padding: 20px;
   border: 4px double #000;
   background-color: #ffffff;
+  text-align:center;
 }
 #logo {
+  /*position: relative;
   width: 150px;
-  margin: 10px auto 25px 700px;
+  margin: 10px auto 25px 700px;*/
+  width: 150px;
+  display: inline;
 }
 #with_border {
   width: 870px;
@@ -52,19 +56,28 @@ a:hover, a.on {
   background-color: #ffffff;
 }
 #services_list{
-  border: none
-  text-align: left
+text-align: left;
+margin-left: 355px;
 }
 #specifics {
-  margin: 20px;
   font-family:serif;
-  text-align: left
+  text-align: left;
+  margin: 10px auto 10px auto;
+  padding: 20px;
+  border: 4px double #000;
+  background-color: #d3dfe0;
+}
+#specifics_details {
+  margin-left: 220px;
+
 }
 .items {
-  display:block;}
+  display:block;
+}
 h5 {
   font-style:italic;
   font-weight: 600;
+  margin-left: 40px;
 }
 #menus {
   border: 2px solid black;
@@ -73,4 +86,14 @@ h5 {
 }
 h4 {
   margin-bottom: -1em
+}
+#About_us {
+  text-align: center;
+}
+#mission {
+  text-align: left;
+  width: 950px;
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: .9em;
 }
